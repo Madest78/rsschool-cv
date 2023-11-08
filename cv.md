@@ -5,7 +5,7 @@
 Phone: 995 551170143\
 E-male: jerzymatusewicz206@gmail.com\
 Telegram: @JerzyMatusiewicz\
-Linkedin\
+Linkedin
 
 ****
 
