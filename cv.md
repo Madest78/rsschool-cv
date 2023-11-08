@@ -1,11 +1,15 @@
-# **Yury Matusevich**\
+# **Yury Matusevich**
+----
+## My Contact Info 
+----
+Phone: 995 551170143\
+E-male: jerzymatusewicz206@gmail.com\
+Telegram: @JerzyMatusiewicz\
+Linkedin\
+----
 
-## My Contact Info ##\
-Phone: 995 551170143
-E-male: jerzymatusewicz206@gmail.com
-Telegram: @JerzyMatusiewicz
-Linkedin
-Briefly About Myself:
+## Briefly About Myself:
+
 I am a creative designer and developer with a rich background in crafting unique and innovative projects. My journey began in the field of interior design, where I developed and implemented design projects in various styles, including loft, Scandinavian, and fusion.
 
 My passion for architectural models led me to work in a production workshop, where I supervised the entire production cycle of architectural models, created 3D models, and designed intricate details. My experience also includes collaborating with leading architectural studios, where I crafted models and technical designs.
