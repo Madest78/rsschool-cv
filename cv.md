@@ -42,7 +42,7 @@ I am looking forward to the opportunity to discuss how I can benefit your compan
 
 ----
 JavaScript Manual on learnjavascript.ru (in progress) \
-RS Schools Course "JavaScript/Front-end. Stage #1" (in progress) \
+RS Schools Course "JavaScript/Front-end. Stage #1" (in progress)
 
 ## My owner project whiht open sours:
 https://madest78.github.io/PixelPainter/
