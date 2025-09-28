@@ -1,8 +1,8 @@
 ## Yury Matusevich
 ****
 __Email:__ vfnectdbx78@gmail.com \
-__Discord__ madest78 \
-__Telegramm:__ @JerzyMatusiewicz \
+__Discord:__ madest78 \
+__Telegram:__ @JerzyMatusiewicz \
 __Phone number:__ 995 551.170.143
 ****
 <p style="text-indent: 1em;">
@@ -12,7 +12,7 @@ Experienced in project automation at a large international company. Currently fo
 ****
 ### Skills 
 <p style="text-indent: 1em;">
-Languages
+Languages:
 </p>
 
   * JavaScript
