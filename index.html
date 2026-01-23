@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV. HTML, CSS &amp; Git Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-examples">Code Examples</a></li>
+        <li><a href="#work-experience">Work Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#english-language">English Language</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="wrapper">
+      <img class="photo" src="src/photo.jpg" alt="Photo">
+      <h1 class="name">Yury Matusevich</h1>
+      <address id="contacts">
+        <ul>
+          <li>Email: <a href="vfnectdbx78@gmail.com">vfnectdbx78@gmail.com</a></li>
+          <li>Discord: madest78</li>
+          <li>Telegram: @JerzyMatusiewicz</li>
+          <li>Phone number:<a href="tel:+995551170143"> 995.551.170.143</a></li>
+        </ul>
+      </address>
+      <p id="about">
+        Experienced in project automation at a large international company. Currently focused on Front-End development
+        and seeking opportunities to enhance web development skills, contribute to a collaborative team, and achieve
+        professional growth.
+      </p>
+      <h2 id="skills">Skills</h2>
+      <ul>
+        <li>
+          <h4>Languages:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript (learning)</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Frameworks / Libraries:</h4>
+          <ul>
+            <li>Angular (learning)</li>
+            <li>Vue3 (learning)</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Tools & Runtimes:</h4>
+          <ul>
+            <li>Node.js (basic backend scripting, simple APIs)</li>
+            <li>Deno (TypeScript runtime, scripting, deployment)</li>
+            <li>npm (package management)</li>
+            <li>Slack CLI</li>
+            <li>Google Apps Script</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Version Control:</h4>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Other:</h4>
+          <ul>
+            <li>Figma (basic)</li>
+            <li>Google Sheets API</li>
+            <li>SQL (basic)</li>
+            <li>cPanel (basic)</li>
+            <li>WordPress/php (basic)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="wrapper">
+      <h2 id="code-examples">Code Examples</h2>
+      <pre><code>
+          function scheduleDefaultChoices() {
+            // delete old triggers sendDefaultChoices
+            const triggers = ScriptApp.getProjectTriggers();
+            triggers.forEach(t =&gt; {
+              if (t.getHandlerFunction() === &apos;sendDefaultChoices&apos;) {
+                ScriptApp.deleteTrigger(t);
+              }
+            });
+
+            // add new 24h trigger
+            ScriptApp.newTrigger(&apos;sendDefaultChoices&apos;)
+              .timeBased()
+              .after(24 * 60 * 60 * 1000) // 24h
+              // .after(1 * 60 * 1000) // 1m from test
+              .create();
+          }
+        </code></pre>
+      <h2 id="work-experience">Work Experience</h2>
+      <p>Junior Developer / Automation Engineer
+        Docusketch (script unit) — (2025)</p>
+      <p>We Application (Vue + MariaDB): Developed a Vue.js application connected to MariaDB; implemented form-based
+        data queries, processing logic, and visualization through interactive charts.</p>
+      <p>Slack Bots for Automation: Built multiple Slack bots with Deno and Slack CLI for workflow automation and team
+        communication.</p>
+      <p>Gamification Project in Slack: Designed and implemented gamified Slack bots styled as NPS characters; bots
+        assigned tasks to teams, facilitated a card game, and rewarded participants.</p>
+      <p>Merch Store Website (WordPress + PHP): Updated and customized the company’s internal merchandise store for a
+        new season, including UI/UX adjustments and backend tweaks.</p>
+      <h2 id="education">Education</h2>
+      <p>RSSchool: JavaScript/Front-end 2023Q4</p>
+      <h2 id="english-language">English Language (B2)</h2>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/Madest78">My GitHub</a>
+    <p>© 2025 Yury Matusevich</p>
+    <img src="https://raw.githubusercontent.com/rolling-scopes-school/qualifying-stage/0c72d034ad1a7cd89cd58f2b64a25b5e24e4e305/tasks/cv/images/rs-school-logo.svg" alt="rs-school-logo">
+    <a href="https://rs.school/courses/short-track">Welcome to the course!</a>
+  </footer>
+</body>
+</html>
